@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+#logo_login{
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 0.8rem;
+    margin-right: 11rem;
+    margin-top: 7rem;
+    cursor: pointer;
+
+}
+.first_heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+    margin-right: 9.5rem;
+    color: #0B2F9F;
+}
+.para_username{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 1em;
+    margin-right: 8.8rem;
+    margin-bottom: 0.5rem;
+}
+#input_username{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    margin-right: 1em;
+    border: 0.2rem solid #0B2F9F;
+}
+.para_email{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 1em;
+    margin-right: 11.2rem;
+    margin-bottom: 0.5rem;
+    
+}
+#input_email{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    margin-right: 1em;
+    border: 0.2rem solid #0B2F9F;
+}
+.para_password{
+    font-size: 1em;
+    font-weight: 460;
+    margin-top: 1em;
+    margin-right: 10.5rem;
+    margin-bottom: 0.5rem;
+
+}
+#input_password{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    margin-right: 1em;
+    border: 0.2rem solid #0B2F9F;
+
+}
+#login_button{
+    margin-left: 2em;
+    margin-top: 2em;
+    margin-right: 2em;
+    background-color: #161D6F;;
+    color: #F7F7F8;
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 2em;
+    border: 0.2rem solid #0B2F9F;
+    cursor: pointer;
+}
+#login_register{
+    background-color: #161D6F;
+    color: #F7F7F8;
+    margin-top: 1em;
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 2em;
+    border: 0.2rem solid #0B2F9F;
+    cursor: pointer;
+
+}
+.child_container{
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    background: #08C2FF;
+}
+#login_img{
+    width: 35rem;
+    height: 42rem;
+    border-radius:30px;
+    margin-left: 1.5em;
+    border: 0.2rem solid #006BFF;
+}
+
+
+
+.container_second{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.child2_container{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border: 0.2rem solid red;
+    background-color: #08C2FF;
+
+    
+}
+.form_right_container{
+    padding-left: 1em;
+}
+
+#logo_registration{
+    width: 60vw;
+    height: 89vh;
+    background: cover;
+}
+#para2_heading{
+    font-size: 1.8rem;
+    padding-bottom: 1em;
+    color: #091057;
+}
+#para2_username{
+    font-size: 1.2rem;
+    margin-right: 12em;
+    color: #091057;
+}
+#user_input2{
+    margin-top: 0.5em;
+    width: 22rem;
+    height: 2rem;
+    border-radius: 2em;
+    padding: 1.2em;
+}
+#para2_email{
+    font-size: 1.2rem;
+    margin-right: 14em;
+    color: #091057;
+
+}
+#input2_email{
+    margin-top: 0.5em;
+    width: 22rem;
+    height: 2rem;
+    border-radius: 2em;
+    padding: 1.2em;
+}
+#para2_password{
+    font-size: 1.2rem;
+    margin-right: 12em;
+    color: #091057;
+
+}
+#input2_password{
+    margin-top: 0.5em;
+    width: 22rem;
+    height: 2rem;
+    border-radius: 2em;
+    padding: 1.2em;
+
+}
+#btn2_signup{
+    margin-top: 1.4em;
+    background-color: #161D6F;;
+    color: #F7F7F8;
+    width: 22rem;
+    height: 2.8rem;
+    border-radius: 2em;
+    border: 0.2rem solid ;
+    cursor: pointer;
+
+}
+
+.dash_container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dash_child_container{
+    width: 70vw;
+    height: 70vh;
+}
+#dash_first_heading{
+    font-size: 4vw;
+    color: #EC8305;
+}
+#dash_second_heading{
+    color: #024CAA;
+}
+#btn_dash{
+    width: 8vw;
+    height: 4vh;
+    background-color: #0D92F4;
+    color: #091057;
+}
+#dash_admin{
+    width: 8vw;
+    height: 4vh;
+    margin-top: 1rem;
+    background-color: #EC8305;
+    color: #091057;
+
+}
+.admin_component{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#admin_heading{
+    font-size: 4vw;
+    color: #EC8305;
+    
+}
